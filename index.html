@@ -45,12 +45,11 @@
 	      <h3 style="color: black">Ecole Centrale de Lyon</h3>
 	    </div>
 	    <!-- <div style="padding-left: 15%"> -->
-	      <img style="padding-left: 10%; padding-right: 2%;" src="./gfx/erc_logo.gif" width="15%"/>
-	      <img style="padding-left: 2%; padding-right: 2%;" src="./gfx/LogoLabPhys.gif" width="10%"/>
-	      <img style="padding-left: 2%; padding-right: 2%;" src="./gfx/logo-lmfa.png" width="17%"/>
-	      <img style="padding-left: 2%; padding-right: 2%;" src="./gfx/Logo_Université_de_Lyon.png" width="20%"/>
-	    </div>
-	    
+	    <img style="padding-left: 10%; padding-right: 2%;" src="./gfx/erc_logo.gif" width="15%"/>
+	    <img style="padding-left: 2%; padding-right: 2%;" src="./gfx/LogoLabPhys.gif" width="10%"/>
+	    <img style="padding-left: 2%; padding-right: 2%;" src="./gfx/logo-lmfa.png" width="17%"/>
+	    <img style="padding-left: 2%; padding-right: 2%;" src="./gfx/Logo_Université_de_Lyon.png" width="20%"/>
+	  </div>
 	</section>
 	<section data-background-video="./media/turbulence_cut.mp4" data-background-size="cover">
 	</section>
@@ -61,7 +60,7 @@
 	  <div>
 	    <p><span style="font-size: 1.2em; font-weight: bold">Extreme</span> fluctuations of pressure and velocity gradients.</p>
 	    <div style="padding: 2.5%"></div>
-	    <p>Rare events with a <span style="font-size: 1.2em; font-weight: bold">high impact</span>.<p/>
+	    <p>Rare events with a <span style="font-size: 1.2em; font-weight: bold">high impact</span>.</p>
 	  </div>
 	</section>
 	<section data-background-transition="zoom"
@@ -150,13 +149,10 @@
 	  <p>(force de trainée)</p>
 	  <h2>Fluid resistance</h2>
 	</section>
-		</section>
-<section data-background-video="./media/cyclist_cut.mp4" data-background-size="cover" data-background-video-muted="true" data-background-transition="zoom">
-	</section>
+	<section data-background-video="./media/cyclist_cut.mp4" data-background-size="cover" data-background-video-muted="true" data-background-transition="zoom">
 	</section>
 	<section>
-	  <video data-autoplay src="./media/movie_no_zoom.ogv" width="80%"></video>
-	  
+	  <video data-autoplay src="./media/movie_no_zoom.ogv" width="80%"></video>	  
 	  <div class="fragment">
 	    <p>Timescale of typical fluctuations</p>
 	    \[\tau_0 = \frac{R}{U}\]
@@ -278,7 +274,6 @@
 	<!--     “Notre objectif est d'estimer la probabilité qu'une particule soit transmise à travers un bouclier, cette probabilité étant de l'ordre de $10^{-6}$ à $10^{-10}$, et nous voulons y arriver en échantillonnant environ $1000$ trajectoires de particules.” -->
 	<!--   </blockquote> -->
 	<!-- </section> -->
-
 	<section>
 	  <div style="padding: 2.5%"></div>
 	  <h2>My phd thesis</h2>
@@ -289,9 +284,7 @@
 	  <div style="padding: 5%"></div>
 	  <div class="fragment" style="padding-left: 10%; padding-right: 10%;">
 	    Application of two <span style="font-size: 1.5em">rare events algorithms</span></br> to the direct numerical simulation</br> of the flow past an obstacle.
-	  </div>
-	  
-
+	  </div>	  
 	</section>
 
 
@@ -356,14 +349,14 @@
 	<!--     <img src="./gfx/movie_typical.png" width="60%"/> -->
 	<!--   </div> -->
 	<!-- </section> -->
-	<section data-transition="sline-in">
+	<section data-transition="slide-in">
 	  <div style="padding: 5%"></div>
 	  <h3>Typical fluctuations</h3>
 	  <div>
 	    <video src="./media/movie_typical.mp4" width="95%" controls></video>
 	  </div>
 	</section>
-	<section>
+	<section id="movie_typical">
 	  <div style="padding: 5%"></div>
 	  <h3>The most extreme fluctuation in the timeseries</h3>
 	  <a href="./extreme_test.html#slide_30">
@@ -384,7 +377,6 @@
 	  <div style="padding-top: 5%" class="fragment">\[f_d = \int_{\mathcal{S}}(-p\boldsymbol{I} + \boldsymbol{\tau}) \cdot \boldsymbol{e}_x d\mathcal{S} \approx p_{front} - p_{base}\]
 	  </div>
 	</section>
-
 	<section>
 	  <div>
 	    <div style="padding: 2.5%"></div>
@@ -398,12 +390,10 @@
 	  <div style="padding: 2.5%"></div>
 	  <h3>A similar scenario for extreme events</h3>
 	</section>
-
 	<section>
 	  <div style="padding: 5%"></div>
 	  <img src="./gfx/check_intensity_of_events.png"/>
 	</section>
-
 	<section>
 	</section>
 	<section>
@@ -423,9 +413,9 @@
 	  <!-- </ul> -->
 	</section>
 	<section>
-	  <div style="padding: 7%">
+	  <div style="padding: 7%"></div>
 	    <p>Drag correlations exhibit an exponential decay.</p>
-	    <div style="padding: 2.5%">
+	    <div style="padding: 2.5%"></div>
 	    <img src="./gfx/correlation.png" width="100%"/>
 	</section>
 	<section>
@@ -493,12 +483,14 @@
 	    <div style="padding: 2.5%"></div>
 	    <div><img src="./gfx/gauss.png" width="100%"></div>
 	  </section>
-	  <section>
+	  <section id="id">
 	    <h3>Exponential stationary distribution</h3>
-	    <div style="padding: 2.5%"></div>
+	    <div style="padding: 1%"></div>
 	    <div>\[\mathbb{P}(x)\underset{x\to\infty}{\sim}e^{-\alpha |x|}\]</div>
-	    <div style="padding: 2.5%"></div>
-	    <div><img src="./gfx/exp.png" width="100%"></div>
+	    <div style="padding: 1%"></div>
+	    <div><img src="./gfx/exp.png" width="80%"></div>
+	    <div style="padding: 1%"></div>
+	    <h2 class="fragment">marginal case</h2>
 	  </section>
 	</section>
 	<section>
@@ -517,10 +509,10 @@
 	      <img src="./gfx/event_2_AVG.png" width="37%"/>
 	    </div>
 	    <div style="padding: 1%">
-
-	      <div>
-		<img src="./gfx/event_3_AVG.png" width="37%"/>
-		<img src="./gfx/event_4_AVG.png" width="37%"/>
+	    </div>
+	    <div>
+	      <img src="./gfx/event_3_AVG.png" width="37%"/>
+	      <img src="./gfx/event_4_AVG.png" width="37%"/>
 	    </div>
 	    <div style="padding: 1%">
 	    </div>
@@ -557,7 +549,7 @@
 	    <div style="padding: 2%"></div>
 	    <div class="fragment">
 	    \[r(a) = \mathbb{E}[\tau_a]\]
-	  </div>
+	    </div>
 	  </div>
 	</section>
 	<section>
@@ -570,7 +562,6 @@
 	  <div style="padding: 1%"></div>
 	  \[r(a_1) = 30 \quad r(a_2) = 30/2 = 15 \quad r(a_3) = 30/3 = 10\]
 	</section>
-
 	<section>
 	  <div style="padding: 2.5%"></div>
 	  <h3>Return time of instantaneous drag fluctuations</h3>
@@ -606,29 +597,29 @@
 	  <div style="padding: 5%"></div>
 	  <p style="padding-left: 10%; padding-right: 10%;" class="fragment">Idea: Use <span style="font-size: 1.2em">rare events algorithms</span> to generate rare trajectories and compute return times</p>
 	</section>
-	<section>
-	  <div style="padding-bottom: 5%">
-	  </div>
-	  <h3>A remark on exteme values theory</h3>
-	  <div style="padding-bottom: 5%">
-	  </div>
-	  <p>Extreme values theory could be used to extrapolate return times from a finite timeseries.</p>
-	  <div style="padding-bottom: 5%">
-	  </div>
-	  <p class="fragment">Rare events algorithms effectively <span style="font-weight: bold">generate</span> rare events.</p>
-	</section>
+	<!-- <section> -->
+	<!--   <div style="padding-bottom: 5%"> -->
+	<!--   </div> -->
+	<!--   <h3>A remark on exteme values theory</h3> -->
+	<!--   <div style="padding-bottom: 5%"> -->
+	<!--   </div> -->
+	<!--   <p>Extreme values theory could be used to extrapolate return times from a finite timeseries.</p> -->
+	<!--   <div style="padding-bottom: 5%"> -->
+	<!--   </div> -->
+	<!--   <p class="fragment">Rare events algorithms effectively <span style="font-weight: bold">generate</span> rare events.</p> -->
+	<!-- </section> -->
 	<section>
 	  <div style="padding: 2.5%">
 	  </div>
 	  <h2>rare events algorithms</h2>
 	  <div style="padding: 2.5%">
 	  </div>
-	  <p>Long direct simulation over $T_{tot}$</br>=</br> $N$ <span style="font-weight: bold; font-size: 1.2em">independant</span> simulations over $\frac{T_{tot}}{N}$</p>
+	  <p class="fragment" data-fragment-index="1">Long direct simulation over $T_{tot}$</br>=</br> $N$ <span style="font-weight: bold; font-size: 1.2em">independant</span> simulations over $\frac{T_{tot}}{N}$</p>
 	  	  <div style="padding: 5%">
 		  </div>
-	  <p>Rare event algorithm: $N$ <span style="font-weight: bold; font-size: 1.2em">correlated</span> simulations.</p>
+	  <p class="fragment" data-fragment-index="2">Rare event algorithm: $N$ <span style="font-weight: bold; font-size: 1.2em">correlated</span> simulations.</p>
 
-	  <p><span style="font-weight: bold; font-size: 1.2em">Controlled</span> bias that favors rare events</p>
+	  <p class="fragment" data-fragment-index="2"><span style="font-weight: bold; font-size: 1.2em">Controlled</span> bias that favors rare events</p>
 	</section>
 	<!-----ADAPTIVE MULTILEVEL SPLITTING -------------------------------------------------------------------->
 	<section data-transition="slide-in none-out">
@@ -690,12 +681,12 @@
 	  <div style="padding: 1%"></div>
 	  <p style="font-size: 1em">Very rare events sampled with a very low computational cost</p>
 	</section>
-	<section>
-	  <div style="padding: 2.5%"></div>
-	  <h3>Return times for the Ornstein-ulhenbeck process</h3>
-	  <div style="padding: 1%"></div>
-	  <img src="./gfx/return_times_AMS.png"/>
-	</section>
+	<!-- <section> -->
+	<!--   <div style="padding: 2.5%"></div> -->
+	<!--   <h3>Return times for the Ornstein-ulhenbeck process</h3> -->
+	<!--   <div style="padding: 1%"></div> -->
+	<!--   <img src="./gfx/return_times_AMS.png"/> -->
+	<!-- </section> -->
 	<section data-transition="slide-in none-out">
 	  <div style="padding: 2.5%"></div>
 	  <h3>Application: instantaneous drag fluctuations</h3>
@@ -891,7 +882,7 @@ Z(k,T_a) = \mathbb{E}_{\mathbb{P}_0}\left[ e^{k \int_0^{T_a}A(\mathbf{x}(t))\mat
 	    \[I(a) = \sup\{ka - \lambda(k)\}\]
 	  </div>
 	</section>
-	<section data-transition="slide-in none-out"  id="id">
+	<section data-transition="slide-in none-out">
 	  <h3>The cloning algorithm provides a far better estimate of $\lambda(k)$</h3>
 	  <img src="./gfx/yates_1.png" width="100%"/>
 	  \[N = 256, T_a = 30\tau_c, \tau = \tau_c/2\]
@@ -914,37 +905,94 @@ Z(k,T_a) = \mathbb{E}_{\mathbb{P}_0}\left[ e^{k \int_0^{T_a}A(\mathbf{x}(t))\mat
 	  <p>Computational cost of the algo. : $10^4\tau_c$</p>
 	  <p>Estimation for events with a return time 100 times larger</p>
 	</section>
-
-	</div>
+	
+	<!--- CONCLUSION ------>
+	<section>
+	  <section>
+	    <div style="padding: 2.5%"></div>
+	    <h2>conclusion</h2>
+	    <div style="padding: 2.5%"></div>
+	    <h3>Direct study of extremes through very long simulations</h3>
+	    <div style="padding: 2.5%"></div>
+	    <p><span style="font-size: 1.2em; font-weight: bold;">Provides insight</span> on the phenomenology</br> of extreme drag fluctuations.</p>
+	    <div style="padding: 2.5%"></div>
+	    <p>Useful because: </p>
+	    <ul>
+	      <li>There is no litterature on <span style="font-size: 1.2em; font-weight: bold;">extreme</span> drag forces.</li>
+	      <li class="fragment">It helps the application and analysis of rare events algorithms.</li>
+	    </ul>
+	  </section>
+	  <section>
+	    <div style="padding: 2.5%"></div>
+	    <h2>conclusion</h2>
+	    <div style="padding: 5%"></div>
+	    <h3>Rare events algorithms</h3>
+	    <div style="padding: 2.5%"></div>
+	    <p>The best way to solve a problem is to already know the solution.</p>
+	  </section>
+	  <section>
+	    <div style="padding: 2.5%"></div>
+	    <h2>Conclusion</h2>
+	    <div style="padding: 2.5%"></div>
+	    <h3>The efficiency of an algorithm depends on the phenomenology</h3>
+	    <div style="padding: 2.5%"></div>
+	    <p class="fragment">Recent successful applications of the TAMS </br>for very different problems in turbulent flows.</p>
+	    <div style="padding: 2.5%"></div>
+	    <div class="fragment">
+	      <h4>perspective</h4>
+	      <p>Tailor the TAMS to the phenomenology of convective flows around objects.</p>
+	    </div>
+	  </section>
+	  <section>
+	    <div style="padding: 1%"></div>
+	    <h2>Conclusion</h2>
+	    <div style="padding: 1%"></div>
+	    <h3>The cloning algorithm gives access to extremes</h3>
+	    <h3>of the averaged drag</h3>
+	    <div style="padding: 2%"></div>
+	    <div class="fragment fade-left">
+	      <p>Extremes that result from successive fluctuations.</p>
+	      <img src="./gfx/event_1_AVG.png" width="70%"/>
+	    </div>
+	  </section>
+	</section>
+	<section data-background="./gfx/Strangpaintingsmall.jpg" data-background-size="cover" style="font-size: 40px" data-background-transition="zoom">
+	  <div style="text-align: left">
+	    <h2 style="color: black; padding-left: 5%; padding-top: 5% ">Merci de votre attention.</h2>
+	    <div style="padding: 27%"></div>
+	    <p style="font-style: italic; padding-left: 10%; color: black; font-size: 0.8em;">Acrylic painting of the turbulent flow around a sphere - original work by Laura Strang.</p>
+	  </div>
+	</section>
       </div>
+    </div>
 
-      <script src="lib/js/head.min.js"></script>
-      <script src="js/reveal.js"></script>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
 
-      <script>
-	// More info about config & dependencies:
-	// - https://github.com/hakimel/reveal.js#configuration
-	// - https://github.com/hakimel/reveal.js#dependencies
-	Reveal.initialize({
-	width: "100%",
-	height: "100%",
-	margin: 0,
-	center: false,
-	transition: 'slide',
-	//minScale: 1,
-	//maxScale: 1
-	math: {
-	mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
-	config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
-	},
-	dependencies: [
-	{ src: 'plugin/markdown/marked.js' },
-	{ src: 'plugin/markdown/markdown.js' },
-	{ src: 'plugin/notes/notes.js', async: true },
-	{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-	{ src: 'plugin/math/math.js', async: true }
-	]
-	});
-      </script>
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+      width: "100%",
+      height: "100%",
+      margin: 0,
+      center: false,
+      transition: 'slide',
+      //minScale: 1,
+      //maxScale: 1
+      math: {
+      mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+      config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+      },
+      dependencies: [
+      { src: 'plugin/markdown/marked.js' },
+      { src: 'plugin/markdown/markdown.js' },
+      { src: 'plugin/notes/notes.js', async: true },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'plugin/math/math.js', async: true },
+      ]
+      });
+    </script>
   </body>
 </html>
