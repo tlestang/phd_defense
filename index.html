@@ -51,7 +51,7 @@
 	    <img style="padding-left: 2%; padding-right: 2%;" src="./gfx/Logo_Université_de_Lyon.png" width="20%"/>
 	  </div>
 	</section>
-	<section data-background-video="./media/turbulence_cut.mp4" data-background-size="cover">
+	<section data-background-video="./media/turbulence_cut.mp4" data-background-video-loop="true" data-background-size="cover">
 	</section>
 	<section>
 	  <div style="padding: 5%"></div>
@@ -133,7 +133,7 @@
 	<section data-transition="slide-in none-out">
 	  <div style="padding: 2.5%"></div>
 	  <h2>My PhD thesis</h2>
-	  <video data-autoplay src="./media/movie_no_zoom.ogv" width="90%"></video>
+	  <video data-autoplay src="./media/movie_no_zoom.ogv" width="90%" loop></video>
 	  <div style="padding: 2.5%"></div>
 	</section>
 	<section data-transition="none-in slide-out">
@@ -864,7 +864,7 @@
 	  <div style="padding: 2.5%"></div>
 	  <div class="fragment">
 	    \[
-Z(k,T_a) = \mathbb{E}_{\mathbb{P}_0}\left[ e^{k \int_0^{T_a}A(\mathbf{x}(t))\mathrm{d}t}\right] \underset{T_a \to \infty}{\longrightarrow} e^{T_a \lambda(k)}
+Z(k,T_a) = \mathbb{E}_{\mathbb{P}_0}\left[ e^{k \int_0^{T_a}A(\mathbf{x}(t))\mathrm{d}t}\right] \underset{T_a \to \infty}{\sim} e^{T_a \lambda(k)}
 	    \]
 	  </div>
 	  <div style="padding: 2.5%"></div>
@@ -979,6 +979,7 @@ Z(k,T_a) = \mathbb{E}_{\mathbb{P}_0}\left[ e^{k \int_0^{T_a}A(\mathbf{x}(t))\mat
       margin: 0,
       center: false,
       transition: 'slide',
+      slideNumber: true,
       //minScale: 1,
       //maxScale: 1
       math: {
